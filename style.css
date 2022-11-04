@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+.main-box {
+   background-color: gray;
+   /* vw = viewport width */
+   width: 100vw;
+   /* vh = viewport height */
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.color-button {
+   /* margin: 20px; */
+   border: 2px solid white;
+   width: 5vw;
+   height: 5vw;
+   background-color: white;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.color-button:hover {
+   cursor: pointer;
+   transform: scale(1.05);
+   /* 1 = 100% */
+}
+
+#button-01 {
+   background-color: firebrick;
+}
+
+#button-02 {
+   background-color: darkkhaki;
+}
+
+#button-03 {
+   background-color: darkcyan;
+}
